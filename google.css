@@ -65,7 +65,6 @@ main{
     .botones button:hover{
         color: black;
         border:1px solid #c6c6c6;
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.109);
     }
 
 .busqueda{
@@ -83,7 +82,6 @@ main{
         align-items: center;
     }
         .busqueda-container:hover{
-            box-shadow: 0 1px 6px 0 #20212447;
             border-color: #dfe1e500;
         }
     
@@ -157,5 +155,23 @@ footer .footer-right {
 footer ul li a {
     margin: 10px;
     color: #5f6368;
+}
+
+@media (max-width: 554px) and (min-width: 230px)
+{
+    
+    footer{
+        display: none;
+    }
+    .botones{
+        padding-right: 5%;
+    }
+    .busqueda-container{
+        
+        width: 500px;
+    }
+    .busqueda{
+        width: 500px;
+    }
 }
 
